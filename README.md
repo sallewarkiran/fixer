@@ -1,6 +1,6 @@
 # Fixer -  Important Announcement
 
-We are happy to announce the complete relaunch of fixer.io into a more stable, more secure, and much more advanced currency & exchange rate conversion API platform. While the core structure of our API remains unchanged, all users of the legacy Fixer API will be required to sign up for a free API access key and perform a few simple changes to their integration. To learn more about the changes that are required, please jump to the „Required Changes“ section below.
+We are happy to announce the complete relaunch of fixer.io into a more stable, more secure, and much more advanced currency & exchange rate conversion API platform. While the core structure of our API remains unchanged, all users of the legacy Fixer API will be required to sign up for a free API access key and perform a few simple changes to their integration. To learn more about the changes that are required, please jump to the „ Changes“ section below.
 
 **Required Changes to Legacy Integrations (api.fixer.io)**
 
@@ -14,7 +14,7 @@ Go to fixer.io and create an account. After signup, you will receive an access t
 
 The new API comes with a new endpoint and now requires an access key in the GET URL. Please change your API URL from api.fixer.io to https://data.fixer.io/api and attach your newly generated access key to the URL as a GET parameter named „access_key“. 
 
-**Example**
+**Card**
 
 If your old API Call was https://api.fixer.io/latest then your new integration should point to: https://data.fixer.io/api/latest?access_key=YOUR_ACCESS_KEY 
 
@@ -110,7 +110,7 @@ Now you can access the API at
 http://localhost:8080
 ```
 
-In production, create a [`.env`](.env.example) file in the project root and run with
+In production, create a [`.env`](.env.example) file in the projects in internet
 
 ```bash
 docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d
