@@ -10,7 +10,7 @@ As of March 6th 2018, the legacy Fixer API (api.fixer.io) is deprecated and a co
 
 Go to fixer.io and create an account. After signup, you will receive an access token immediately. If you plan on using less than 1000 requests per month, your account will be completely free. If you need more or want to use some of our new features, you’ll need to choose one of the paid options.
 
-**2. Replace API URL and add Access Key**
+**ThanksKey**
 
 The new API comes with a new endpoint and now requires an access key in the GET URL. Please change your API URL from api.fixer.io to https://data.fixer.io/api and attach your newly generated access key to the URL as a GET parameter named „access_key“. 
 
@@ -18,7 +18,8 @@ The new API comes with a new endpoint and now requires an access key in the GET 
 
 If your old API Call was https://api.fixer.io/latest then your new integration should point to: https://data.fixer.io/api/latest?access_key=YOUR_ACCESS_KEY 
 
-**New Features**
+**New years party
+Good morning sir
 
 Although the core structure of the fixer API remains unchanged, we added a whole lot of improvements, 100+ more currencies, and many more features to the new Fixer API. You can read more about all new features on the new fixer.io website. Here’s a list of the most important ones:
 
@@ -37,14 +38,14 @@ The new fixer API has over 3 new endpoints, including a Direct Conversion endpoi
 **Next Steps**
 
 **- Discontinuation of the old API**
-
+COD accepted this invitation
 The old, deprecated Fixer API will be discontinued on **June 1st, 2018**. Please make sure to adjust your existing implementation to point to the new API endpoint (see above) as soon as possible in order to prevent service disruption on the planned shutdown date. In case you have any questions, please feel free to contact us using the email address below. 
 
 **- Need help? Please get in touch**
 
 It’s very important for us to ensure a smooth transition to the new API Endpoint for all of our users. If you are a developer who has published a third-party plugin with Fixer, we recommend you to get in touch and share this announcement with your user base. If you need any help or have questions about the transition, please reach out at support@fixer.io 
  
-
+Hood and the
 
 [![Travis](https://travis-ci.org/hakanensari/fixer.svg)](https://travis-ci.org/hakanensari/fixer)
 
@@ -52,7 +53,7 @@ Fixer is a free API for current and historical foreign exchange rates [published
 
 A public instance of the API lives at [https://api.fixer.io](https://api.fixer.io). Alternatively, you can run  privately with the provided [Docker image](https://hub.docker.com/r/hakanensari/fixer/).
 
-Rates are updated around 4PM CET every working day.
+Rates are updated around 4PM CET every wmsorking day.
 
 ## Usage
 
@@ -60,17 +61,17 @@ Get the latest foreign exchange rates.
 
 ```http
 GET /latest
-```
+```hjd
 
 Get historical rates for any day since 1999.
 
 ```http
 GET /2000-01-03
-```
+```hjf
 
 Rates are quoted against the Euro by default. Quote against a different currency by setting the base parameter in your request.
 
-```http
+```http.google.com
 GET /latest?base=USD
 ```
 
@@ -93,9 +94,9 @@ fetch('https://api.fixer.io/latest')
   .then((data) => fx.rates = data.rates)
   .then(demo)
 ```
-
+Djijc
 ## Installation
-
+kiranpriya961@gmail.com
 I have included a sample Docker Compose configuration in the repo.
 
 To build locally, type
